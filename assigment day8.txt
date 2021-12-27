@@ -1,0 +1,31 @@
+
+1.Write a “person” class to hold all the details.
+
+code:
+
+class person {
+    constructor(name, age,height,qualification ) {
+      this.name = name;
+      this.age = age;
+      this.height = height;
+      this.qualification = qualification;
+    }
+  
+    getpersondetails() {
+      return `${this.name} ${this.age} ${this.height} ${this.qualification} `;
+    }
+  }
+  let obj = new person("name :"+ "praveenkl");
+let obj1 = new person("age :" +22);
+let obj2 = new person("height :"+5.9)
+let obj3= new person("qualification :"+"b tech cse")
+console.log(obj.getpersondetails());
+console.log(obj1.getpersondetails());
+console.log(obj2.getpersondetails());
+console.log(obj3.getpersondetails());
+
+ans:
+ name :praveenkl  
+ age :22  
+ height :5.9  
+ qualification :b tech cse  
